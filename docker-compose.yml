@@ -1,0 +1,9 @@
+# services:
+#   nextjs:
+#     build: .
+#     env_file:
+#       - .env.local
+#     ports:
+#       - 3000:3000
+
+## this is how you read env variable dynamically and map ports
